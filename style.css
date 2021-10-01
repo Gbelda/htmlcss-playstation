@@ -1,0 +1,26 @@
+/********************************************************************
+                                COMMON
+*********************************************************************/
+
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+
+/**************************************************************
+                                NAVBAR
+***************************************************************/
+
+.menu li{
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.menu li a::after{
+    content: url(./img/chevron-down-solid.svg);
+    display: inline-block;
+    width: 14px;
+    padding-left: 5px;
+    
+}
