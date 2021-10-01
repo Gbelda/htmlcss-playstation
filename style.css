@@ -80,3 +80,19 @@ header{
     width: 100%;
     border-radius: 15px;
 }
+
+/************************************************************
+                                MAIN 
+************************************************************/
+
+.motto{
+    font-size: .8rem;
+}
+
+.selected{
+    border-bottom: 2px solid #0d6dfdb9;
+}
+
+.blur img{
+    filter: opacity(.7);
+}
