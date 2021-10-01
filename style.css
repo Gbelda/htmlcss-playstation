@@ -73,12 +73,13 @@ header{
         padding-top: 110.08px;
 }
 
-.jumbo_hero p{
+.jumbo_hero p,
+.new_release h6{
     font-size: 1.1rem;
 }
 
-.featured img{
-    width: 100%;
+.featured img,
+.new_release img{
     border-radius: 15px;
 }
 
