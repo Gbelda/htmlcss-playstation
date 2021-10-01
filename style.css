@@ -4,7 +4,6 @@
 
 body{
     font-family: Arial, sans-serif;
-    height: 7000px;
 }
 
 
@@ -75,4 +74,9 @@ header{
 
 .jumbo_hero p{
     font-size: 1.1rem;
+}
+
+.featured img{
+    width: 100%;
+    border-radius: 15px;
 }
