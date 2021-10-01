@@ -14,6 +14,7 @@ body{
 header{
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 
 .sony_logo{
@@ -46,7 +47,7 @@ header{
 }
 
 /*************************************************************
-                           MAIN
+                           JUMBOTRON
 *************************************************************/
 .jumbo_container.top{
     background-image: url(./img/jumbo-bg.png);
@@ -95,4 +96,8 @@ header{
 
 .blur img{
     filter: opacity(.7);
+}
+
+.jumbo_container.mid{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
 }
