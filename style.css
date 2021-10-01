@@ -3,7 +3,7 @@
 *********************************************************************/
 
 body{
-    font-family: 'Public Sans', sans-serif;
+    font-family: Arial, sans-serif;
     height: 7000px;
 }
 
@@ -29,8 +29,6 @@ header{
     padding: 10px 0px;
 }
 
-
-
 .menu li{
     font-weight: 600;
     padding-left: 5px;
@@ -46,4 +44,35 @@ header{
 
 .menu .btn img{
     width: 30px;
+}
+
+/*************************************************************
+                           MAIN
+*************************************************************/
+.jumbo_container.top{
+    background-image: url(./img/jumbo-bg.png);
+}
+
+.jumbo_container{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.btn.orange{
+    background-color: #CD3D0F;
+}
+
+.jumbo_hero img{
+    width: 300px;
+}
+
+.top_section{
+        padding-top: 110.08px;
+}
+
+.jumbo_hero p{
+    font-size: 1.1rem;
 }
