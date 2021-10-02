@@ -17,6 +17,10 @@ body{
 .bg_dark_blue{
     background-color: #161C3B;
 }
+
+.bg_blue{
+    background-color: #00439C;
+}
 /**************************************************************
                                 NAVBAR
 ***************************************************************/
@@ -119,4 +123,36 @@ header{
 .plus p,
 .now p{
     font-size: 1.11rem;
+}
+
+/**************************************************************
+                            FOOTER
+****************************************************************/
+
+.ps_logo{
+    filter: grayscale(100) brightness(100);
+}
+
+.reg_mark{
+    font-size: .7rem;
+    bottom: 20px;
+    right: 10px;
+}
+
+footer .globe{
+    width: 25px;
+    padding-right: 5px;
+}
+
+footer .language{
+    font-size: .9rem;
+    color:white
+}
+
+footer .nav .nav-link{
+    font-size: .9rem;
+}
+
+footer .legal{
+    font-size: .95rem;    
 }
