@@ -6,8 +6,17 @@ body{
     font-family: Arial, sans-serif;
 }
 
+.bg_gray{
+    background-color: #BEBCBB;
+}
 
+.btn_gray{
+    background-color: #D9DADC;
+}
 
+.bg_dark_blue{
+    background-color: #161C3B;
+}
 /**************************************************************
                                 NAVBAR
 ***************************************************************/
@@ -86,6 +95,10 @@ header{
 /************************************************************
                                 MAIN 
 ************************************************************/
+.plus .navbar-collapse,
+.now .navbar-collapse{
+    flex-basis: 0;
+}
 
 .motto{
     font-size: .8rem;
@@ -103,3 +116,7 @@ header{
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+.plus p,
+.now p{
+    font-size: 1.11rem;
+}
