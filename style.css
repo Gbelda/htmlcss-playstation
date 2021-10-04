@@ -78,16 +78,13 @@ header{
     background-color: #CD3D0F;
 }
 
-.jumbo_hero img{
-    width: 300px;
-}
+
 
 .top_section{
         padding-top: 110.08px;
 }
 
-.jumbo_hero p,
-.new_release h6{
+.jumbo_hero p{
     font-size: 1.1rem;
 }
 
@@ -109,7 +106,7 @@ header{
 }
 
 .selected{
-    border-bottom: 2px solid #0d6dfdb9;
+    border-bottom: 3px solid #0d6dfdb9;
 }
 
 .blur img{
@@ -123,6 +120,31 @@ header{
 .plus p,
 .now p{
     font-size: 1.11rem;
+}
+
+.blur h6{
+    color: rgba(0, 0, 0, 0.493);
+}
+
+.play4 p{
+font-size: 1.2rem;
+}
+
+.play5 h6{
+font-size: .8rem;
+padding-top: 20px;
+}
+
+.ps5_pic{
+    margin-top: -20px;
+}
+
+.pic_container{
+    overflow: hidden;
+}
+
+.new_release h5{
+    font-size: 1rem;
 }
 
 /**************************************************************
