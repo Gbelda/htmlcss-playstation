@@ -6,6 +6,10 @@ body{
     font-family: Arial, sans-serif;
 }
 
+.bg_white{
+    background-color: white;
+}
+
 .bg_gray{
     background-color: #BEBCBB;
 }
@@ -60,6 +64,45 @@ header{
     width: 30px;
 }
 
+.dropdown-menu{
+    width: 100%;
+    background-clip: unset;
+    border: none;
+    border-radius: 0;
+}
+
+.dropdown-menu[data-bs-popper]{
+top: 95%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.dropdown-menu li a::after {
+    content: none;
+}
+
+.sublink{
+    padding: 0px;
+}
+
+.sublink li{
+    list-style: none;
+}
+
+.sublink li::before {
+  content: "\2022";
+  color: #00439C;
+  padding-left: 30px;
+}
+
+.dropdown-item{
+    padding: 5px;
+}
+
+.dropdown-item img{
+    width: 100px;
+}
 /*************************************************************
                            JUMBOTRON
 *************************************************************/
